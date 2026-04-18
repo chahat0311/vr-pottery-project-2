@@ -17,3 +17,9 @@ UserSettings/
 *.mdb
 *.opendb
 *.VC.db
+.vs/
+*.db
+*.opendb
+*.suo
+*.user
+*.log
