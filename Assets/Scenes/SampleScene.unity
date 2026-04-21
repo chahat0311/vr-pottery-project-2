@@ -8778,12 +8778,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ea696cc0c633a0489a0913e1a563160, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClayController
-  minHeight: 0.08
-  maxHeight: 0.35
-  minRadius: 0.06
-  maxRadius: 0.22
-  currentHeight: 0.14
-  currentRadius: 0.18
+  minHeight: 1
+  maxHeight: 3
+  minRadius: 0.04
+  maxRadius: 0.25
+  currentHeight: 2
+  currentRadius: 0.2
   shapeSpeed: 5
   volume: 1
   ringCount: 12
