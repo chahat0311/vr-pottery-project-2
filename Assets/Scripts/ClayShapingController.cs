@@ -5,13 +5,17 @@ public class ClayShapingController : MonoBehaviour
     [Header("Drag these in from Hierarchy")]
     public Transform      rightHand;
     public Transform      leftHand;
-    public Transform      wheelCenter;
+    public Transform      wheelCenter;   // static empty GameObject at wheel axis
     public ClayController clay;
 
     [Header("Settings")]
-    public float interactionRadius   = 0.15f;
-    public float heightSensitivity   = 8.0f;  // how much up/down affects height
-    public float radialSensitivity   = 6.0f;  // how much in/out affects width
+    public float interactionRadius  = 0.18f;
+    public float heightSensitivity  = 8.0f;
+    public float radialSensitivity  = 6.0f;
+    public float holeSensitivity    = 5.0f;
+
+    [Header("Hole: one finger pointing DOWN into clay center")]
+    public float holeTriggerRadius  = 0.05f; // how close to center to start hole
 
     [Header("Debug")]
     public bool  rightHandShaping;
@@ -47,6 +51,20 @@ public class ClayShapingController : MonoBehaviour
         if (rightHandShaping) Shape(rPos, ref rightLastPos, axis);
         if (leftHandShaping)  Shape(lPos, ref leftLastPos,  axis);
 
+        // Hole: if either hand is directly over center and moving DOWN
+        // use whichever hand is closest to center
+        Vector3 holeHand   = rightHandDistance < leftHandDistance ? rPos : lPos;
+        float   holeDist   = Mathf.Min(rightHandDistance, leftHandDistance);
+        Vector3 holeLastPos = rightHandDistance < leftHandDistance
+                              ? rightLastPos : leftLastPos;
+
+        if (holeDist <= holeTriggerRadius)
+        {
+            float downDelta = -(holeHand.y - holeLastPos.y); // positive when moving down
+            if (downDelta > 0.0001f)
+                clay.PushHole(downDelta * holeSensitivity);
+        }
+
         rightLastPos = rPos;
         leftLastPos  = lPos;
     }
@@ -56,18 +74,14 @@ public class ClayShapingController : MonoBehaviour
         Vector3 delta = pos - lastPos;
         if (delta.magnitude < 0.0001f) return;
 
-        // ── Vertical: purely Y movement ──────────────────────────
-        float vertical = Mathf.Clamp(
-            delta.y * heightSensitivity, -0.03f, 0.03f);
+        float vertical = Mathf.Clamp(delta.y * heightSensitivity, -0.03f, 0.03f);
 
-        // ── Radial: only XZ movement toward/away from center ─────
         Vector3 radialDir = new Vector3(
             pos.x - axis.x, 0f, pos.z - axis.z).normalized;
         float radial = Mathf.Clamp(
             Vector3.Dot(new Vector3(delta.x, 0f, delta.z), radialDir)
             * radialSensitivity, -0.03f, 0.03f);
 
-        // Vertical and radial are completely independent
         if (vertical >  0.0001f) clay.PullUp(vertical);
         if (vertical < -0.0001f) clay.PressDown(-vertical);
         if (radial   >  0.0001f) clay.PressInward(radial);

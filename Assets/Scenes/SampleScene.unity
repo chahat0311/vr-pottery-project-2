@@ -449,6 +449,27 @@ MonoBehaviour:
     m_InputActionReference: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: 0
+--- !u!1 &67176781 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8806329115733545877, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+  m_PrefabInstance: {fileID: 1373153106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &67176788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67176781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8ee48d8037f3bb438f142b02ff1a202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HandLocomotion
+  xrCamera: {fileID: 1058348532}
+  moveSpeed: 1.5
+  gravity: -9.81
+  isMoving: 0
 --- !u!1 &138880952
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,6 +700,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5678262148941478280, guid: 9e3ede1651037d74e8ecc366825a02be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.042580366
+      objectReference: {fileID: 0}
     - target: {fileID: -5564150859001769279, guid: 9e3ede1651037d74e8ecc366825a02be, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.7
@@ -690,6 +715,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9e3ede1651037d74e8ecc366825a02be, type: 3}
       propertyPath: m_Name
       value: PotteryStudio3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891792828147989070, guid: 9e3ede1651037d74e8ecc366825a02be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.55
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -7747,6 +7776,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001560842}
   m_Mesh: {fileID: 2700354272823574166, guid: 9e3ede1651037d74e8ecc366825a02be, type: 3}
+--- !u!4 &1058348532 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7917674758326848202, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+  m_PrefabInstance: {fileID: 1373153106}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1071784861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8160,6 +8194,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255649228}
   m_Mesh: {fileID: 2700354272823574166, guid: 9e3ede1651037d74e8ecc366825a02be, type: 3}
+--- !u!4 &1305334419 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7284777676407206524, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+  m_PrefabInstance: {fileID: 1373153106}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1335983407
 GameObject:
   m_ObjectHideFlags: 0
@@ -8591,6 +8630,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3051491437750746931, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3076200542614142720, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -8659,6 +8702,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3704889835333334857, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.288
+      objectReference: {fileID: 0}
+    - target: {fileID: 3704889835333334857, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.254
+      objectReference: {fileID: 0}
+    - target: {fileID: 3704889835333334857, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.041
+      objectReference: {fileID: 0}
     - target: {fileID: 3776134002055136721, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -8682,6 +8737,18 @@ PrefabInstance:
     - target: {fileID: 3839470503946506831, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849287962258532554, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2883624
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849287962258532554, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.254
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849287962258532554, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.04199998
       objectReference: {fileID: 0}
     - target: {fileID: 3967006940822425539, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_Layer
@@ -9265,11 +9332,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8806329115733545878, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.014
       objectReference: {fileID: 0}
     - target: {fileID: 8806329115733545878, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.44
+      value: 2.796
       objectReference: {fileID: 0}
     - target: {fileID: 8806329115733545878, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9319,6 +9386,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9059786329452581396, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 9061924876168173991, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -9343,6 +9414,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8806329115733545877, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 67176788}
     - targetCorrespondingSourceObject: {fileID: 7917674758919744183, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       insertIndex: -1
       addedObject: {fileID: 55122788}
@@ -10329,11 +10403,13 @@ MonoBehaviour:
   leftHand: {fileID: 1916933842}
   wheelCenter: {fileID: 1200439878}
   clay: {fileID: 0}
-  interactionRadius: 0.35
+  interactionRadius: 0.2
   heightSensitivity: 8
-  radialSensitivity: 6
-  rightHandShaping: 0
-  leftHandShaping: 0
+  radialSensitivity: 8
+  holeSensitivity: 8
+  holeTriggerRadius: 0.05
+  rightHandShaping: 1
+  leftHandShaping: 1
   rightHandDistance: 0
   leftHandDistance: 0
 --- !u!114 &1702648264
@@ -10348,14 +10424,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ea696cc0c633a0489a0913e1a563160, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClayController
-  minHeight: 1
-  maxHeight: 3
+  minHeight: 0.5
+  maxHeight: 5
   minRadius: 0.04
-  maxRadius: 0.25
-  currentHeight: 5
-  currentRadius: 0.3
+  maxRadius: 0.3
+  maxHoleRadius: 0.2
+  currentHeight: 3
+  currentRadius: 0.1
   shapeSpeed: 10
-  resistance: 0.85
+  resistance: 0.5
 --- !u!1 &1703568385
 GameObject:
   m_ObjectHideFlags: 0
@@ -10491,6 +10568,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1801678425}
+  - component: {fileID: 1801678426}
   m_Layer: 0
   m_Name: PotteryWheel
   m_TagString: Untagged
@@ -10514,6 +10592,31 @@ Transform:
   - {fileID: 1644302928}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1801678426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801678424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25afb6c07450a54f9018a5b3c1f0c0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClayShapingController
+  rightHand: {fileID: 1860798525}
+  leftHand: {fileID: 1305334419}
+  wheelCenter: {fileID: 362174230}
+  clay: {fileID: 1702648264}
+  interactionRadius: 0.15
+  heightSensitivity: 8
+  radialSensitivity: 6
+  holeSensitivity: 5
+  holeTriggerRadius: 0.05
+  rightHandShaping: 1
+  leftHandShaping: 1
+  rightHandDistance: 0
+  leftHandDistance: 0
 --- !u!1 &1810428871
 GameObject:
   m_ObjectHideFlags: 0
@@ -10550,6 +10653,8 @@ MonoBehaviour:
   interactionRadius: 0.5
   heightSensitivity: 8
   radialSensitivity: 6
+  holeSensitivity: 5
+  holeTriggerRadius: 0.05
   rightHandShaping: 1
   leftHandShaping: 1
   rightHandDistance: 0
@@ -10753,6 +10858,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b4a657c7df58fb4fa21624fe730efa2, type: 3}
+--- !u!4 &1860798525 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5432845125524180255, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+  m_PrefabInstance: {fileID: 1373153106}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1865805775
 GameObject:
   m_ObjectHideFlags: 0
