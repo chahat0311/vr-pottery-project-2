@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: 9d22e1e58b857eb4590e677324da6d37
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brushed Copper
+    second: {fileID: 2100000, guid: c67583ad506146444973f5190b19b468, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass with green side.001
+    second: {fileID: 2100000, guid: 32f960294d1e3d740864adc6fa461472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass with green side.002
+    second: {fileID: 2100000, guid: c96aae943e3dbc147b537b747b73bb0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass with green side.003
+    second: {fileID: 2100000, guid: c610354bc53048f4d81f4d4bca1a0ea4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass with green side.004
+    second: {fileID: 2100000, guid: c438921914f86d84ebcde5d8b953f9fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handmade modern small wooden stool 45x40x60
+    second: {fileID: 2100000, guid: 5d4b90ac437a2d9419a0068cbfb2470d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handmade modern small wooden stool 45x40x60.001
+    second: {fileID: 2100000, guid: 0a24a5bfc8af4ff49946208c63f66f20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 412a13e1c9102fd4e97e0ffc48b6aa77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 2552c5fa5d230e74b83c18526b544c2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.022
+    second: {fileID: 2100000, guid: 0d5d6d0efec9dd746baa150a7a8cbbe1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RammedEarth018_2K
+    second: {fileID: 2100000, guid: 854c13dad7af91d4e9ff6482f66ffc32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RammedEarth018_2K.001
+    second: {fileID: 2100000, guid: 07bbfa77e04c0f74b82da042a0d1ff9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TilesTerracottaBeigeSquareStacked001_2K
+    second: {fileID: 2100000, guid: 9f91438db2c6a3e4dade189711661775, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.001
+    second: {fileID: 2100000, guid: f78b5f78480ded745a43e3eac677154e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.002
+    second: {fileID: 2100000, guid: e29800fcdbd8d974cbfc01c91676033a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.003
+    second: {fileID: 2100000, guid: 6d6d3e8df3e668649b44d0fb47a1f1d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.004
+    second: {fileID: 2100000, guid: a6d2920257808ff42a72a126af94aaef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.005
+    second: {fileID: 2100000, guid: 47f4f8958dd15b1489e36178ec108fc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.006
+    second: {fileID: 2100000, guid: 0819307610743f04fafe8674e3cf9787, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.007
+    second: {fileID: 2100000, guid: 2d7c2b263a173d34d90e88c32d3d779e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.008
+    second: {fileID: 2100000, guid: abae3bb4c86cec741aa75fe83221f85c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.009
+    second: {fileID: 2100000, guid: b1b9dbc71a28e9d4fa18e222c44b2186, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.010
+    second: {fileID: 2100000, guid: c2a590b87c2d9f848860befbf0508ec0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.011
+    second: {fileID: 2100000, guid: 4bef8f125a6795a489ba65f9410b774c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.012
+    second: {fileID: 2100000, guid: 36bf8c6dc9c17524a81f9e646a89a571, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.013
+    second: {fileID: 2100000, guid: de0f5f13b2b1eaa42baee4a6886d0ce5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.014
+    second: {fileID: 2100000, guid: cc945bf14c0dd8548832641dc49fc652, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.015
+    second: {fileID: 2100000, guid: 0e66cf687a12df049918ee8536401f03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.016
+    second: {fileID: 2100000, guid: c0883004aef822f44a34305fae95bd93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.018
+    second: {fileID: 2100000, guid: e55e6cee701d4d042ad62cfc524f6148, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.019
+    second: {fileID: 2100000, guid: 2585b9423c50e3541ab5fde60e2fa4a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.020
+    second: {fileID: 2100000, guid: 108744a8d244f8e449446bc55de35c98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.021
+    second: {fileID: 2100000, guid: 1ed4e047576a4bf47b399921269a9796, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.022
+    second: {fileID: 2100000, guid: 17ca53085479b2647906968d7ac30381, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.023
+    second: {fileID: 2100000, guid: 7bfc110936d761042bfecbb75f43e60f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.024
+    second: {fileID: 2100000, guid: 80adcee45ab821d41846fecf3d06ec1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.025
+    second: {fileID: 2100000, guid: 05aac7f099aff96409af80fd2d00eb0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.026
+    second: {fileID: 2100000, guid: eb54e891d203c504d9718fe51dc1dc7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.027
+    second: {fileID: 2100000, guid: 98e39d3373f93ae40822287d89648375, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.028
+    second: {fileID: 2100000, guid: c1a25bafb56dc864590be9f4afa84899, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.029
+    second: {fileID: 2100000, guid: 8e2b605ae0da28b439f91630fedab167, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.030
+    second: {fileID: 2100000, guid: f4aed7af35fe6de4da58fa4964d69120, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.031
+    second: {fileID: 2100000, guid: d9e31f21a640c6b448d86956cbedddc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.032
+    second: {fileID: 2100000, guid: 811caba7018d0b24390eaa24f0811154, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Gasket.033
+    second: {fileID: 2100000, guid: e3ec12e2b128f944f859f8a307fab5f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.001
+    second: {fileID: 2100000, guid: a3d64ec559158fb42b8fae01facea517, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.002
+    second: {fileID: 2100000, guid: e7f0bd147d3981c43942d7badf6e8b65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.003
+    second: {fileID: 2100000, guid: a5dfd6526e7729d4d971ccc678467498, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.004
+    second: {fileID: 2100000, guid: 74cf5d07fd5929444bde25e242d1b8ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.005
+    second: {fileID: 2100000, guid: 64f7372edabda064f87b0010280e743c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.006
+    second: {fileID: 2100000, guid: 3746d8c22755efa449cefd71c4b1f4ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.007
+    second: {fileID: 2100000, guid: a64d6ce7850ca3a4a8dbc28398b5b4fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.008
+    second: {fileID: 2100000, guid: a06abee3d4e054f42a40492402f81b4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.009
+    second: {fileID: 2100000, guid: 15562cd7f5ae81e45b344ae598fa9806, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.010
+    second: {fileID: 2100000, guid: 24965525b549aad43a10e049e7136428, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.011
+    second: {fileID: 2100000, guid: 86bbef4a4e81d414cb177c54492331fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.012
+    second: {fileID: 2100000, guid: 149e439a3409a8748b13afd3f6aa5840, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.013
+    second: {fileID: 2100000, guid: 624d3ad504472de4fabbdeffd528bb00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.014
+    second: {fileID: 2100000, guid: c35bd020e2b6ead4b9441f7ceb78d96e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.015
+    second: {fileID: 2100000, guid: cecc9f5636731fd489dc4c851031d28b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.016
+    second: {fileID: 2100000, guid: 213b29610c9ed424db7b6554089c7a89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.018
+    second: {fileID: 2100000, guid: bbba0539d13dee74e912c59c265461cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.019
+    second: {fileID: 2100000, guid: e9d16daf8661fbb498137d5cd1da84b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.020
+    second: {fileID: 2100000, guid: 4930ed38c9bd0cf4cb77aebf29499c33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.021
+    second: {fileID: 2100000, guid: b097e85a23bcf8d4a956ed73345dea32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.022
+    second: {fileID: 2100000, guid: 0b0d2dedf2d3ab74f808d9d922a5a316, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.023
+    second: {fileID: 2100000, guid: 5fb445944681b9b4f9819bd2390e709c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.024
+    second: {fileID: 2100000, guid: e3989cc36fd0e6b45aad50650a55c54a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.025
+    second: {fileID: 2100000, guid: 333deec7c9d120b45a8cb5b3d0f450c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.026
+    second: {fileID: 2100000, guid: a1131d75260b254499a97c0bbfbd1659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.027
+    second: {fileID: 2100000, guid: 7cfa2a75e0bb5b44598ba48be2e75377, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.028
+    second: {fileID: 2100000, guid: 6a21d00349f89b74692b04f454a8a56f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.029
+    second: {fileID: 2100000, guid: 0648c89cc1f7fba458564b87df4420fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.030
+    second: {fileID: 2100000, guid: 93458f816f79a2c43ab92bff49893cc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.031
+    second: {fileID: 2100000, guid: 296062498878e0648875b7c58623bb34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.032
+    second: {fileID: 2100000, guid: d8b5434396f536941a0e9039d0f16209, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Glass.033
+    second: {fileID: 2100000, guid: 40116b6a375979845b687267a7545ec6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.001
+    second: {fileID: 2100000, guid: 4e5872d3d03e269469c5bf17dabb08d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.002
+    second: {fileID: 2100000, guid: 06e7b19bdaa51c744be67562aa9805ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.003
+    second: {fileID: 2100000, guid: c2f599180f9937845acabe9f7afe22e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.004
+    second: {fileID: 2100000, guid: c649079e2edc7804aacdfc6beffcdfbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.005
+    second: {fileID: 2100000, guid: e8d0463f3466b6549a2496c29ceb0b8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.006
+    second: {fileID: 2100000, guid: ced9104568c183a48a453a6c1cd951fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.007
+    second: {fileID: 2100000, guid: 53b201f327848e249a8acc93a6260523, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.008
+    second: {fileID: 2100000, guid: 785f53e50537ae94fa69e3da35a2db87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.009
+    second: {fileID: 2100000, guid: 695074075637b0c4d859c5036d14d27d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.010
+    second: {fileID: 2100000, guid: 4c316caede609604fb73f669b7ac6b74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.011
+    second: {fileID: 2100000, guid: 7bb740fae1c42ce448dc39104ae1c4da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.012
+    second: {fileID: 2100000, guid: 5a8359ad00665514184fbc92892bb63a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.013
+    second: {fileID: 2100000, guid: acb27c72b2b0cc749bb2cb788cf90cf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.014
+    second: {fileID: 2100000, guid: 7d2a1ff7c954c2548b5824dadcb62991, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.015
+    second: {fileID: 2100000, guid: 2b3915497e6e07d45a6b73b220e07d1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.016
+    second: {fileID: 2100000, guid: 6e04f36faf650d14c97ba892728f44fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.018
+    second: {fileID: 2100000, guid: f280842208e83564d8f7f362c3968a85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.019
+    second: {fileID: 2100000, guid: 7ae9fcbfeac7d094c8e5f4cb51899969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.020
+    second: {fileID: 2100000, guid: 5b11471057817654f950b2adf0855160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.021
+    second: {fileID: 2100000, guid: 2c2bb27f639601f4a8581f3bbc9f38a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.022
+    second: {fileID: 2100000, guid: 1cce44d4b26a8e049b0bcfa0bb8a499b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.023
+    second: {fileID: 2100000, guid: 65981a9628a3cbe4faab024e7e0ef1b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.024
+    second: {fileID: 2100000, guid: 8a6cf850c031daf43bbdc6688d102f58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.025
+    second: {fileID: 2100000, guid: 94f87bd538762ca47a30ac97184b4b7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.026
+    second: {fileID: 2100000, guid: 70a50d201fffebc4e942b7cdbf503195, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.027
+    second: {fileID: 2100000, guid: f6003b6ba24c3ba4cae261a433c75ece, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.028
+    second: {fileID: 2100000, guid: ed6e02ed5c633794995d1a3dd2d809a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.029
+    second: {fileID: 2100000, guid: c38d32d337227534a891439bc40970f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.030
+    second: {fileID: 2100000, guid: d0c5360c1662f15428811aa412d9cd7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.031
+    second: {fileID: 2100000, guid: 15548ebbdc2a74e47bdcc023a7282b91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.032
+    second: {fileID: 2100000, guid: 1033b6b12d8882c4ab54218f0f89efbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window White Metal.033
+    second: {fileID: 2100000, guid: 08c50feac3b25e04081f2334aec2094a, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
